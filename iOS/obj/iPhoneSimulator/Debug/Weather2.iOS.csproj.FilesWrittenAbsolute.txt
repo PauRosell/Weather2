@@ -1,0 +1,17 @@
+/Users/MAC10/Projects/Weather2/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/Weather2.iOS.exe.mdb
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/Weather2.iOS.exe
+/Users/MAC10/Projects/Weather2/iOS/obj/iPhoneSimulator/Debug/Weather2.iOS.exe
+/Users/MAC10/Projects/Weather2/iOS/obj/iPhoneSimulator/Debug/Weather2.iOS.exe.mdb
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/WebSocket4Net.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/EngineIoClientDotNet.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/SocketIoClientDotNet.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/Weather2.dll
+/Users/MAC10/Projects/Weather2/iOS/bin/iPhoneSimulator/Debug/Weather2.dll.mdb

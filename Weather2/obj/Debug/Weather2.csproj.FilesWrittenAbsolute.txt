@@ -1,0 +1,16 @@
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.App.xaml
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.WeatherPage.xaml
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.App.xaml.g.cs
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.WeatherPage.xaml.g.cs
+/Users/MAC10/Projects/Weather2/Weather2/bin/Debug/Weather2.dll.mdb
+/Users/MAC10/Projects/Weather2/Weather2/bin/Debug/Weather2.dll
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.dll
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.dll.mdb
+/Users/MAC10/Projects/Weather2/Weather2/bin/Debug/Xamarin.Forms.Core.dll
+/Users/MAC10/Projects/Weather2/Weather2/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/MAC10/Projects/Weather2/Weather2/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/MAC10/Projects/Weather2/Weather2/bin/Debug/Newtonsoft.Json.dll
+/Users/MAC10/Projects/Weather2/Weather2/bin/Debug/System.Net.Http.dll
+/Users/MAC10/Projects/Weather2/Weather2/bin/Debug/System.Net.Http.Primitives.dll
+/Users/MAC10/Projects/Weather2/Weather2/bin/Debug/System.Net.Http.Extensions.dll
