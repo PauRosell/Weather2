@@ -138,11 +138,16 @@
     <Compile Include="AppDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Icons8-Ios7-Weather-Sun.png" />
     <BundleResource Include="Resources\lupaBlanca.png" />
-    <BundleResource Include="Resources\cloud-9.png" />
     <BundleResource Include="Resources\diffusebackground.png" />
-    <BundleResource Include="Resources\01d.png" />
+    <BundleResource Include="Resources\snowflake.png" />
+    <BundleResource Include="Resources\sunny-1.png" />
+    <BundleResource Include="Resources\storm.png" />
+    <BundleResource Include="Resources\night-1.png" />
+    <BundleResource Include="Resources\night.png" />
+    <BundleResource Include="Resources\cloud.png" />
+    <BundleResource Include="Resources\rain.png" />
+    <BundleResource Include="Resources\haze.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.0.49\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.0.49\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
