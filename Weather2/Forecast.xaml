@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:Weather2" 
+		x:Class="Weather2.Forecast"
+		Title="Forecast"
+		Icon="clock.png"
+		BackgroundColor="Silver">
+	
+	<ContentPage.Resources>
+	  <ResourceDictionary>
+	  	<local:PathToImageConverter x:Key="PathToImage" />
+	  </ResourceDictionary>
+	</ContentPage.Resources>
+
+	<Grid Padding="12,20,12,12">
+
+
+		<Grid.RowDefinitions>
+			<RowDefinition Height="30"/>
+			<RowDefinition Height="200" />
+
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+
+		<StackLayout Grid.Row="0" Grid.ColumnSpan="5" Orientation="Horizontal"  >
+
+        <Entry x:Name="zipCodeEntry" Placeholder="Zipcode" HorizontalOptions="FillAndExpand" WidthRequest="100" />
+		<Button x:Name="getWeatherbt"   Image="lupaBlanca.png"  HorizontalOptions="End" > </Button>
+
+		</StackLayout>
+
+		<StackLayout Grid.Row="1" Grid.ColumnSpan="5" Orientation="Vertical"   >
+			<Label x:Name="Name" Text="{Binding Temperature2}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontSize="50" TextColor="White"/>
+			<Label x:Name="Temp" Text="{Binding Date}" HorizontalOptions="Center"  FontSize="60" TextColor="White"/>
+		</StackLayout>
+	
+		
+
+	</Grid>
+</ContentPage>

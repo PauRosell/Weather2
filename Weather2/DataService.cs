@@ -18,7 +18,21 @@ namespace Weather2
             WeatherData weatherData = JsonConvert.DeserializeObject<WeatherData>(json);
             return weatherData;
         }
+       
+       
+        public static async Task<ListForecast> getDataFromServiceForecast(string queryStringForecast)
+        {
+            HttpClient client = new HttpClient();
+            var response = await client.GetAsync(queryStringForecast);
+
+
+
+            string json = response.Content.ReadAsStringAsync().Result;
+            ListForecast weatherData2 = JsonConvert.DeserializeObject<ListForecast>(json);
+            return weatherData2;
+        }
 
     }
+
 }
 

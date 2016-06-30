@@ -32,14 +32,32 @@
     <EmbeddedResource Include="App.xaml" />
     <Compile Include="Weather.cs" />
     <EmbeddedResource Include="WeatherPage.xaml" />
-    <Compile Include="Entities\Coord.cs" />
-    <Compile Include="Entities\Sys.cs" />
-    <Compile Include="Entities\Wind.cs" />
-    <Compile Include="Entities\WeatherDesc.cs" />
-    <Compile Include="Entities\Main.cs" />
-    <Compile Include="Entities\WeatherData.cs" />
-    <Compile Include="Entities\Clouds.cs" />
+    <Compile Include="Entities Weather\Coord.cs" />
+    <Compile Include="Entities Weather\Sys.cs" />
+    <Compile Include="Entities Weather\Wind.cs" />
+    <Compile Include="Entities Weather\WeatherDesc.cs" />
+    <Compile Include="Entities Weather\Main.cs" />
+    <Compile Include="Entities Weather\WeatherData.cs" />
+    <Compile Include="Entities Weather\Clouds.cs" />
     <Compile Include="Converters\PathToImageConverter.cs" />
+    <EmbeddedResource Include="Forecast.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Include="Forecast.xaml.cs">
+      <DependentUpon>Forecast.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Entities Forecast\CoordForecast.cs" />
+    <Compile Include="Entities Forecast\CloudsForecast.cs" />
+    <Compile Include="Entities Forecast\Sys2Forecast.cs" />
+    <Compile Include="Entities Forecast\SysForecast.cs" />
+    <Compile Include="Entities Forecast\CityForecast.cs" />
+    <Compile Include="Entities Forecast\MainForecast.cs" />
+    <Compile Include="Entities Forecast\WeatherForecast.cs" />
+    <Compile Include="Entities Forecast\WindForecast.cs" />
+    <Compile Include="Entities Forecast\RootObjectForecast.cs" />
+    <Compile Include="Entities Forecast\RainForecast.cs" />
+    <Compile Include="Entities Forecast\ListForecast.cs" />
+    <Compile Include="Weather2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -79,8 +97,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\" />
+    <Folder Include="Entities Weather\" />
     <Folder Include="Converters\" />
+    <Folder Include="Entities Forecast\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.0.49\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.0.49\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

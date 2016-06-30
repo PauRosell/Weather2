@@ -14,3 +14,7 @@
 /Users/MAC10/Projects/Weather2/Weather2/bin/Debug/System.Net.Http.dll
 /Users/MAC10/Projects/Weather2/Weather2/bin/Debug/System.Net.Http.Primitives.dll
 /Users/MAC10/Projects/Weather2/Weather2/bin/Debug/System.Net.Http.Extensions.dll
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.WeatherPageForecast.xaml
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.WeatherPageForecast.xaml.g.cs
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.Forecast.xaml
+/Users/MAC10/Projects/Weather2/Weather2/obj/Debug/Weather2.Forecast.xaml.g.cs

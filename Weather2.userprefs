@@ -1,25 +1,18 @@
 ﻿<Properties StartupItem="iOS/Weather2.iOS.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Weather2/Converters/PathToImageConverter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Weather2/DataService.cs">
     <Files>
-      <File FileName="Weather2/DataService.cs" Line="15" Column="1" />
-      <File FileName="Weather2/Core.cs" Line="40" Column="1" />
+      <File FileName="Weather2/Core.cs" Line="10" Column="61" />
       <File FileName="Weather2/Weather.cs" Line="17" Column="1" />
-      <File FileName="Weather2/WeatherPage.xaml" Line="44" Column="33" />
-      <File FileName="Weather2/WeatherPage.xaml.cs" Line="32" Column="1" />
-      <File FileName="Weather2/Converters/PathToImageConverter.cs" Line="30" Column="76" />
-      <File FileName="Weather2/App.xaml.cs" Line="12" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="20" Column="1" />
-      <File FileName="iOS/Main.cs" Line="15" Column="1" />
+      <File FileName="Weather2/Entities Forecast/ListForecast.cs" Line="16" Column="43" />
+      <File FileName="Weather2/Entities Forecast/RootObjectForecast.cs" Line="3" Column="21" />
+      <File FileName="Weather2/Entities Forecast/WeatherForecast.cs" Line="15" Column="1" />
+      <File FileName="Weather2/DataService.cs" Line="22" Column="67" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Weather2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.29E35C72-BD88-4E96-8647-7B3E2DA4EDD3" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/MAC10/Projects/Weather2/Weather2/Core.cs" line="23" column="1" />
-      <Breakpoint file="/Users/MAC10/Projects/Weather2/Weather2/WeatherPage.xaml" line="44" column="1" />
-      <Breakpoint file="/Users/MAC10/Projects/Weather2/Weather2/Converters/PathToImageConverter.cs" line="13" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

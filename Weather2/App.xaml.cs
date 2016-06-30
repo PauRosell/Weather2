@@ -6,9 +6,18 @@ namespace Weather2
     {
         public App()
         {
-           
 
-            MainPage = new WeatherPage();
+
+
+            //MainPage = new NavigationPage(new WeatherPage());
+            MainPage = new TabbedPage
+            {
+                Children =
+                {
+                    new WeatherPage(),
+                    new Forecast()
+                }
+            };
         }
 
         protected override void OnStart()

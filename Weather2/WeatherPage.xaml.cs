@@ -25,8 +25,10 @@ namespace Weather2
 
             }
             else {
-                Weather weather = await Core.GetWeather("60601,ES");
+                Weather weather = await Core.GetWeather("10000");
                 this.BindingContext = weather;
+
+
             }
 
         }

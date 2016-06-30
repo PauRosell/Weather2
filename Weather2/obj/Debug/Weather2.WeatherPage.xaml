@@ -3,7 +3,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		xmlns:local="clr-namespace:Weather2" 
-		x:Class="Weather2.WeatherPage" BackgroundImage="diffusebackground.jpg" >
+		x:Class="Weather2.WeatherPage" BackgroundColor="Silver" 
+		Title="City"
+		Icon = "weathericon.png" 
+		>
+
 	<ContentPage.Resources>
 	  <ResourceDictionary>
 	  	<local:PathToImageConverter x:Key="PathToImage" />
@@ -11,9 +15,10 @@
 	</ContentPage.Resources>
 
 	<Grid Padding="12,20,12,12">
-		
+
+
 		<Grid.RowDefinitions>
-			<RowDefinition Height="35"/>
+			<RowDefinition Height="30"/>
 			<RowDefinition Height="200" />
 			<RowDefinition Height="*" />
 			<RowDefinition Height="*" />
@@ -30,17 +35,17 @@
 
 		<StackLayout Grid.Row="0" Grid.ColumnSpan="5" Orientation="Horizontal"  >
 
-        <Entry x:Name="zipCodeEntry" HorizontalOptions="StartAndExpand" WidthRequest="100" />
-		<Button x:Name="getWeatherbt"   Image="lupaBlanca.png"  HorizontalOptions="EndAndExpand" > </Button>
+        <Entry x:Name="zipCodeEntry" Placeholder="Zipcode" HorizontalOptions="FillAndExpand" WidthRequest="100" />
+		<Button x:Name="getWeatherbt"   Image="lupaBlanca.png"  HorizontalOptions="End" > </Button>
 
 		</StackLayout>
 
-		<StackLayout Grid.Row="1" Grid.ColumnSpan="5" Orientation="Vertical"  Padding="0,10,0,0" >
+		<StackLayout Grid.Row="1" Grid.ColumnSpan="5" Orientation="Vertical"   >
 			<Label x:Name="Name" Text="{Binding Title}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontSize="50" TextColor="White"/>
 			<Label x:Name="Temp" Text="{Binding Temperature}" HorizontalOptions="Center"  FontSize="60" TextColor="White"/>
 		</StackLayout>
 		
-		<StackLayout Grid.Row="2" Grid.ColumnSpan="5" Orientation="Horizontal"  VerticalOptions="Start" BackgroundColor="Purple">
+		<StackLayout Grid.Row="2" Grid.ColumnSpan="5" Orientation="Horizontal"  VerticalOptions="Start" >
 		<Image x:Name="Img" Source="{Binding Img, Converter={StaticResource PathToImage}}" WidthRequest="150" HorizontalOptions="CenterAndExpand"/> 
 
 		</StackLayout>
@@ -50,16 +55,16 @@
 		<Label x:Name="TempMax" Text="{Binding TempMax}" VerticalOptions="Center"   Grid.Column="6" FontSize="40" HorizontalOptions="CenterAndExpand" TextColor="White"/>
 		</StackLayout>
 
-		<StackLayout Grid.Row="4" Grid.ColumnSpan="5" Orientation="Horizontal"  Padding="0,0,15,0" >
+		<StackLayout Grid.Row="4" Grid.ColumnSpan="5" Orientation="Horizontal"   >
 		<Label x:Name="Press" Text="Pressure"  Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="20" TextColor="White"/>
 		<Label x:Name="Hum" Text="Humidity"  Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="20" TextColor="White"/>
-		<Label x:Name="Win" Text="Wind Speed"  Grid.Column="2" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="20" TextColor="White"/>
+		<Label x:Name="Win" Text="W.Speed"  Grid.Column="2" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="20" TextColor="White"/>
 	
 		</StackLayout>
 
 		<StackLayout Grid.Row="5" Grid.ColumnSpan="5" Orientation="Horizontal"  >
 		<Label x:Name="Pres" Text="{Binding Press}"  Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="25" TextColor="White"/>
-		<Label x:Name="Hums" Text="{Binding Hum}"  Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="25" TextColor="White"/>
+		<Label x:Name="Hums" Text="{Binding Hum}"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Start" FontSize="25" TextColor="White"/>
 		<Label x:Name="Wins" Text="{Binding Win}"  Grid.Column="2" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="25" TextColor="White"/>
 	
 		</StackLayout>
